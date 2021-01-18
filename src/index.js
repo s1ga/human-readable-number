@@ -32,8 +32,8 @@ module.exports = function toReadable (number) {
         }
     }
     function toDec(n) {
-        const base = nums(Math.floor(number / 10) * 10)
-        const num = nums(number % 10)
+        const base = nums(Math.floor(n / 10) * 10)
+        const num = nums(n % 10)
         return `${base} ${num}`
     }
 
